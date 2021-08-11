@@ -14,14 +14,26 @@ In order to use voidgame you need to understand voidgame.State and voidgame.proc
 Void is an abstract strategy board game for two players.
 
 ##### Components and Terminology
-Void is played on a circular board. The central area of the board (the void) is encircled by five concentric rings (orbits) each divided into eighteen segments (sectors). It requires two sets (fleets), black and white, of eight pieces (ships): one flagship, two bombers, two sweepers, and three fighters. 
+Void is played on a circular board. The central area of the board (the void) is encircled by five concentric rings (orbits) each divided into eighteen segments (sectors). It requires two sets (black and white) of eight pieces: one flagship, two bombers, two sweepers, and three fighters. The innermost (first) orbit is the "lowest" while the outermost (fifth) orbit is the "highest". So, in Void, "above" means "further out" and "below" means "further in".
 
 _initial setup_
 
-<img src="/pngs/void-board-initial-setup.png" alt="Void Board Initial Setup" width="500" height="500">
+![Void Board Initial Setup](/pngs/void-board-initial-setup.png)
 
-The innermost (first) orbit is the "lowest" while the outermost (fifth) orbit is the "highest". So, in Void, "above" means "further out" and "below" means "further in". 
+##### Play
+Players take turns (black first) moving one piece per turn. 
 
-##### Object
+The game ends when...
+
+- one player wins (by sending their oponent's flagship into the void)
+
+- there is a draw (because only the two flagships remain in play)
+
+- one player concedes
 
 ##### Movement
+
+_flagship_ 
+
+<img src="/pngs/void-flag-black.png" alt="Void Flagship Piece (Black)" width="200" height="200">
+Some rules about the flagship's movement and attack...
