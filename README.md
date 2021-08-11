@@ -33,7 +33,6 @@ The game ends when...
 
 ##### Movement
 
-_flagship_ 
-
-<img src="/pngs/void-flag-black.png" alt="Void Flagship Piece (Black)" width="200" height="200">
+###### The Flagship 
 Some rules about the flagship's movement and attack...
+<img src="/pngs/void-flag-black.png" alt="Void Flagship Piece (Black)" width="200" height="200">
