@@ -1,11 +1,19 @@
 # voidgame
 
-Void is my name for a board game I designed in college. 
+Void is my name for a board game I designed in college. This project is an interface for the rules of Void.
 
-# Rules of Void
+### Usage
+
+In order to use voidgame you need to understand voidgame.State and voidgame.process().
+
+##### State
+
+##### process()
+
+### Rules of Void
 Void is an abstract strategy board game for two players.
 
-### Components and Terminology
+##### Components and Terminology
 Void is played on a circular board. The central area of the board (the void) is encircled by five concentric rings (orbits) each divided into eighteen segments (sectors). It requires two sets (fleets), black and white, of eight pieces (ships): one flagship, two bombers, two sweepers, and three fighters. 
 
 _initial setup_
@@ -14,6 +22,6 @@ _initial setup_
 
 The innermost (first) orbit is the "lowest" while the outermost (fifth) orbit is the "highest". So, in Void, "above" means "further out" and "below" means "further in". 
 
-### Object
+##### Object
 
-### Movement
+##### Movement

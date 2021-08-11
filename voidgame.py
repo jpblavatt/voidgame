@@ -1,10 +1,17 @@
 class State:
 	def __init__(self):
-		self.turn = "black"
-		self.phase = "select"
-		self.prompt = SELECT_PROMPT
-		self.black = 0
-		self.white = 0
+		self.turn = "black" #"black" or "white"
+		self.phase = "select" #"select", "move", or "attack"
+		self.prompt = SELECT_PROMPT #Describes what the current player needs to do.
+		self.black = 0 #black's score
+		self.white = 0 #white's score
+		
+		#The board represented as a 5 (orbits) x 18 (sectors) 2D array of strings.
+		#Valid sector contents...
+		# - empty: ""
+		# - piece: "<color>#<type>"
+		# - marker: "canMove", "start", or "willFall"
+		# - piece and marker(s): "<color>#<type> selected", "<color>#<type> canHit", "<color>#<type> willFall", or "<color>#<type> selected willFall"
 		self.board = [
 			["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""],
 			["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""],
