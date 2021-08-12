@@ -37,6 +37,7 @@ The game ends when...
 
 #### The Flagship 
 <img src="/pngs/void-flag-black.png" alt="Void Flagship Piece (Black)" width="100" height="100">
+
 The flagship may move orbitally to a neighboring unoccupied sector. The flagship may not move to a new orbit. It may not move further than one sector. It may not move into an occupied sector.
 
 After moving, the flagship may attack the first piece within three sectors along any orbital, vertical, or diagonal trajectory which belongs to the opposit color. The flagship may not attack untill after it moves. It may not attack "through" an occupied sector. It may not attack further than three sectors away. It may not attack more than one piece.
