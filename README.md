@@ -14,7 +14,9 @@ In order to use voidgame you need to understand voidgame.State and voidgame.proc
 Void is an abstract strategy board game for two players.
 
 ### Components and Terminology
-Void is played on a circular board. The central area of the board (the void) is encircled by five concentric rings (orbits) each divided into eighteen segments (sectors). It requires two sets (black and white) of eight pieces: one flagship, two bombers, two sweepers, and three fighters. The innermost (first) orbit is the "lowest" while the outermost (fifth) orbit is the "highest". So, in Void, "above" means "further out" and "below" means "further in".
+Void is played on a circular board. The central area of the board (the void) is encircled by five concentric rings (orbits). The innermost (first) orbit is the "lowest" while the outermost (fifth) orbit is the "highest". So, in Void, "above" means "further out" and "below" means "further in". Each orbit is divided into eighteen segments (sectors). These sectors are aligned so as to form eighteen "verticle" columns of five sectors. "Orbital" means either clockwise or counter clockwise within a single orbit. "Diagonal" means equal and simultaneous change in vertical and orbital directions (ie. through the corners).
+
+Void requires two sets (black and white) of eight pieces: one flagship, two bombers, two sweepers, and three fighters. 
 
 _initial setup_
 
@@ -35,7 +37,9 @@ The game ends when...
 
 #### The Flagship 
 <img src="/pngs/void-flag-black.png" alt="Void Flagship Piece (Black)" width="100" height="100">
-Some rules about this piece's movement and attack...
+The flagship may move orbitally (either clockwise or counter-clockwise in its current orbit) to a neighboring unoccupied sector. The flagship may not move to a new orbit. It may not move further than one sector. It may not move into an occupied sector.
+
+After moving, the flagship may attack the first piece along any orbital, vertical, or diagonal 
 
 #### The Bomber 
 <img src="/pngs/void-bomber-black.png" alt="Void Bomber Piece (Black)" width="100" height="100">
