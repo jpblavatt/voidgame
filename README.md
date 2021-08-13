@@ -40,13 +40,18 @@ The game ends when...
 
 The flagship may move orbitally to a neighboring unoccupied sector. The flagship may not move to a new orbit. It may not move further than one sector. It may not move into an occupied sector.
 
-After moving, the flagship may attack the first piece within three sectors along any orbital, vertical, or diagonal trajectory which belongs to the opposit color. The flagship may not attack untill after it moves. It may not attack "through" an occupied sector. It may not attack further than three sectors away. It may not attack more than one piece.
+After moving, the flagship may attack the first piece within three sectors along any orbital, vertical, or diagonal trajectory that belongs to the opposit color. The flagship may not attack untill after it moves. It may not attack "through" an occupied sector. It may not attack further than three sectors away. It may not attack more than one piece.
 
 When the flagship attacks, its target must fall three sectors toward the void. (ie. From the fifth orbit to the second, from the forth to the first or into the void.)
 
 #### The Bomber 
 <img src="/pngs/void-bomber-black.png" alt="Void Bomber Piece (Black)" width="100" height="100">
-Some rules about this piece's movement and attack...
+
+The bomber may move to any neighboring unoccupied sector. The bomber may not move further than one sector and it may not move into an occupied sector.
+
+After moving, the bomber may attack all pieces directly below it. (ie. Below it in the same vertical column.) It must either attack all pieces directly below it (including pieces of the same color) or none of them.
+
+When the bomber attacks, its target(s) must fall entirely into the void.
 
 #### The Sweeper 
 <img src="/pngs/void-sweeper-black.png" alt="Void Sweeper Piece (Black)" width="100" height="100">
