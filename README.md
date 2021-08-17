@@ -55,7 +55,12 @@ When the bomber attacks, its target(s) must fall entirely into the void.
 
 #### The Sweeper 
 <img src="/pngs/void-sweeper-black.png" alt="Void Sweeper Piece (Black)" width="100" height="100">
-Some rules about this piece's movement and attack...
+
+The sweeper may move one sector vertically or up to seventeen sectors orbitally. The sweeper may not move diagonally. It may not move furhter than one secrot vertically. It may not move further than seventeen sectors orbitally. It may not move to or through any occupied sector.
+
+After moving orbitally, the sweeper may attack pieces emediately above the path of its move which belong to the opposite color. If the sweeper attacks one piece, it must also attack all other opposite-color pieces emediately above the rest of the path of its move, from the sector containing the first target piece to the sector above the sweeper.
+
+When the sweeper attacks, its target(s) must fall two sectors toward the void.
 
 #### The Fighter 
 <img src="/pngs/void-fighter-black.png" alt="Void Fighter Piece (Black)" width="100" height="100">
