@@ -56,7 +56,7 @@ When the bomber attacks, its target(s) must fall entirely into the void.
 #### The Sweeper 
 <img src="/pngs/void-sweeper-black.png" alt="Void Sweeper Piece (Black)" width="100" height="100">
 
-The sweeper may move one sector vertically or up to seventeen sectors orbitally. The sweeper may not move diagonally. It may not move furhter than one secrot vertically. It may not move further than seventeen sectors orbitally. It may not move to or through any occupied sector.
+The sweeper may move one sector vertically or up to seventeen sectors orbitally. The sweeper may not move diagonally. It may not move furhter than one sector vertically. It may not move further than seventeen sectors orbitally. It may not move to or through any occupied sector.
 
 After moving orbitally, the sweeper may attack pieces emediately above the path of its move which belong to the opposite color. If the sweeper attacks one piece, it must also attack all other opposite-color pieces emediately above the rest of the path of its move, from the sector containing the first target piece to the sector above the sweeper.
 
@@ -64,4 +64,12 @@ When the sweeper attacks, its target(s) must fall two sectors toward the void.
 
 #### The Fighter 
 <img src="/pngs/void-fighter-black.png" alt="Void Fighter Piece (Black)" width="100" height="100">
-Some rules about this piece's movement and attack...
+
+The fighter may move along any single diagonal trajectory. It may not move to or through any occupied sector.
+
+After moving along a clockwise diagonal tragectory (ie. up and clockwise or down and clockwise), the fighter may attack the first piece within two sectors clockwise if it belongs to the opposite color. After moving along a counter-clockwise diagonal tragectory (ie. up and counter-clockwise or down and counter-clockwise), the fighter may attack the first piece within two sectors counter-clockwise if it belongs to the opposite color.
+
+When the fighter attacks, its target must fall one sector toward the void.
+
+#### Falling
+If a piece must fall through an occupied sector, the piece occupying that sector is not affected. If a piece must fall into an occupied sector, the piece occupying that sector must first fall one sector toward the void to make room. (There may be chain reactions.)
