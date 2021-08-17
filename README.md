@@ -1,6 +1,14 @@
 # voidgame
 
-Void is my name for a board game I designed in college. This project is an interface for the rules of Void. Once you have read the rules, check out voidgame.py. voidgame.State holds the data and voidgame.process() does the work. 
+Void is my name for a board game I designed in college. This project is an interface for the rules of Void.
+
+- voidgame.State holds the data. 
+
+- voidgame.process() does the work.
+
+```
+pip install voidgame
+```
 
 ## Rules of Void
 Void is an abstract strategy board game for two players.
