@@ -249,7 +249,7 @@ def _project_flag_attacks_toward(orbit, sector, do, ds):
 		o = orbit + (i * do)
 		s = (sector + 18 + (i * ds)) % 18
 		if o > 4 or o < 0: break;
-		elif state.board[o][s] != "":
+		elif state.board[o][s] != "" and state.board[o][s] != "start":
 			can_attack = _project_flag_attack(o, s)
 			break;
 			
